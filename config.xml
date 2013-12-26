@@ -49,4 +49,9 @@
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
     <gap:plugin name="com.simplec.plugins.localnotification" />
     <access origin="*" />
+
 </widget>
+<plugins>
+    <plugin name="LocalNotification" value="LocalNotification" />
+</plugins>
+
