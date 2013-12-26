@@ -129,4 +129,8 @@ var app = {
     // Update DOM on a Received Event
  
 };
+window.onerror = function(message, url, linenumber) {
+  alert("JavaScript error: " + message + " on line " + linenumber + " for " + url);
+}
 
+alert(window.plugins.localNotification);
