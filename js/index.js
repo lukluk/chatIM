@@ -130,6 +130,3 @@ var app = {
  
 };
 
-window.onerror = function(message, file, line) {
-  alert(message+'\n'+file+'\n'+line);   
-};
