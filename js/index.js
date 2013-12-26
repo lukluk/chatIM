@@ -71,6 +71,7 @@ var app = {
             }
             $(".imRead").animate({ scrollTop: $('.imRead')[0].scrollHeight}, 500);
                 if(anew && lastdate!='new'){
+                    alert('x');
                 window.plugins.localNotification.add({
                     fireDate        : Math.round(new Date().getTime()/1000 + 5),
                     alertBody       : msg,
